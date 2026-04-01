@@ -1,5 +1,5 @@
 services:
-  - name:test-render-backend
+  - name: test-render-backend
     type: web
     runtime: static
     rootDir: frontend
