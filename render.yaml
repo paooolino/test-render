@@ -1,7 +1,7 @@
 services:
-  - name: calcio-storico-backend
+  - name:test-render-backend
     type: web
     runtime: static
     rootDir: frontend
     buildCommand: 
-    staticPublishPath: dist
+    staticPublishPath: ./
