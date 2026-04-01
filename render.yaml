@@ -2,7 +2,6 @@ services:
   - name: calcio-storico-backend
     type: web
     runtime: static
-    plan: free
     rootDir: frontend
     buildCommand: npm install && npm run build
     staticPublishPath: dist
